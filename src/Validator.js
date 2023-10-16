@@ -2,11 +2,9 @@
 import NumberSchema from './NumberSchema.js';
 
 class Validator {
-    
     number() {
         return new NumberSchema();
     }
-
 /*
     number() {
       
@@ -49,4 +47,3 @@ class Validator {
   }
 
   export default Validator;
-  
