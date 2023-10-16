@@ -1,3 +1,4 @@
+/* eslint-disable class-methods-use-this */
 import NumberSchema from './NumberSchema.js';
 
 class Validator {
