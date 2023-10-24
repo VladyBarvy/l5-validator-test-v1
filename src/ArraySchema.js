@@ -1,5 +1,4 @@
 export default class ArraySchema {
-
   validators = [(value) => Array.isArray(value) === true];
 
   isValid(value) {

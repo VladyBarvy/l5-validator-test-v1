@@ -15,7 +15,6 @@ const schema3 = v.number().odd();
 console.log(schema3.isValid(22)); // false;
 console.log(schema3.isValid(23)); // true;
 
-
 const schema4 = v.array();
 
 console.log(schema4.isValid([])); // true
