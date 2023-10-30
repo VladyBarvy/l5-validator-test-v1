@@ -1,3 +1,4 @@
+/* eslint-disable class-methods-use-this */
 export default class NumberSchema {
   validators = [(value) => typeof value === 'number'];
 
@@ -6,14 +7,14 @@ export default class NumberSchema {
   }
 
   even() {
-    const vali = (value) => value % 2 === 0;
-    this.validators.push(vali);
+    const validator = (value) => value % 2 === 0;
+    this.validators.push(validator);
     return this;
   }
 
   odd() {
-    const vali = (value) => value % 2 !== 0;
-    this.validators.push(vali);
+    const validator = (value) => value % 2 !== 0;
+    this.validators.push(validator);
     return this;
   }
 }

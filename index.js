@@ -1,7 +1,7 @@
 import Validator from './src/Validator.js';
 
 export default Validator;
-
+/*
 const v = new Validator();
 
 const schema1 = v.number();
@@ -16,12 +16,10 @@ console.log(schema3.isValid(22)); // false;
 console.log(schema3.isValid(23)); // true;
 
 const schema4 = v.array();
-
 console.log(schema4.isValid([])); // true
 console.log(schema4.isValid(123)); // false
 console.log(schema4.isValid('Hexlet')); // false
 
-/*
 const schema5 = v.array();
 
 console.log(schema5.isValid([1, 2])); // true
